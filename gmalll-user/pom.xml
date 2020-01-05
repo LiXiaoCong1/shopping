@@ -9,8 +9,8 @@
     </parent>
 
     <groupId>com.atguigu.gmall</groupId>
-    <artifactId>gmalll-user</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>gmall-user</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <name>gmall-user</name>
     <description>Demo project for Spring Boot</description>
 
@@ -51,6 +51,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.atguigu.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

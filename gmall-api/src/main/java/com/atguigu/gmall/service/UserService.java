@@ -1,9 +1,12 @@
-package com.atguigu.gmall.user.service;
+package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.user.bean.UmsMember;
-import com.atguigu.gmall.user.bean.UmsMemberReceiveAddress;
+import com.atguigu.gmall.bean.UmsMember;
+import com.atguigu.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
+
+
+
 
 public interface UserService {
 
@@ -11,7 +14,7 @@ public interface UserService {
 
     void addUser(UmsMember umsMember);
 
-    void deleteUserById(String  id);
+    void deleteUserById(String id);
 
     void updateUser(UmsMember umsMember);
 
