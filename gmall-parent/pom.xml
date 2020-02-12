@@ -16,7 +16,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../gmall-api</module>
-        <module>../gmalll-user</module>
+        <module>../gmall-user</module>
+        <module>../gmall-common-util</module>
+        <module>../gmall-service-util</module>
+        <module>../gmall-web-util</module>
     </modules>
     <packaging>pom</packaging>
 

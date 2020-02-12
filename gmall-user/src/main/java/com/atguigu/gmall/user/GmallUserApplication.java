@@ -15,4 +15,5 @@ public class GmallUserApplication {
         SpringApplication.run(GmallUserApplication.class, args);
     }
 
+
 }
