@@ -18,8 +18,15 @@ import java.util.List;
 @Controller
 public class UserController {
 
+    private final char value[];
+    public UserController(char[] value) {
+        this.value = value;
+    }
+
+
     @Autowired
     private UserService userService;
+
 
 
     @RequestMapping("getAllUser")
@@ -51,8 +58,21 @@ public class UserController {
     @RequestMapping(value = "addUmsMemberReceiveAddress")
     @ResponseBody
     public void addUmsMemberReceiveAddress(@RequestBody UmsMemberReceiveAddress UmsMemberReceiveAddress) {
+        String s1 = "sw"+12345;
+        String s2 = new String("sw");
+        String s3 = new String("sw1");
+        if(s1.equals(s2)){
+
+        }
+        if(s2.equals(s3)){
+
+        }
+
+
         userService.addUmsMemberReceiveAddress(UmsMemberReceiveAddress);
     }
+
+
 
 
 }

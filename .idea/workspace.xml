@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6ad9d2a-1818-41d3-bc56-06c3c80ddd82" name="Default Changelist" comment="api配置提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rebel-remote.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rebel.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04/storage_v2/_src_/schema/gmall_cms.BTYPrA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04/storage_v2/_src_/schema/gmall_ums.l3kPrA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gmaill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_24_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/.rebel-remote.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/.rebel.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/gmall-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsCartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsCompanyAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsOrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PaymentInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseAttrInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBaseSaleAttr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsProductImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsProductInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsProductSaleAttr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsProductSaleAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsSkuAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsSkuImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsSkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsSkuSaleAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMemberReceiveAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/gmall-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/classes/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/gmall-common-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.rebel-remote.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/.rebel.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/gmall-user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/META-INF/gmall-user.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/com/atguigu/gmall/user/GmallUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/com/atguigu/gmall/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/com/atguigu/gmall/user/mapper/UmsMemberReceiveAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/com/atguigu/gmall/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/com/atguigu/gmall/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/gmall-user-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/gmall-user-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/gmalll-user-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/gmalll-user-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="148" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gmaill" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\gmaill\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="B:\apache-maven-3.6.1\gmallRepository" />
+        <option name="mavenHome" value="B:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="B:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UtRfS9dPwyo1sA7UY8ZnGkwPHN" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mongo&#10;mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575565308315" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-user-web/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.gmall.user.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall.user.controller" />
+      <recent name="com.atguigu.gmall.user.service.impl" />
+      <recent name="com.atguigu.gmall.user.impl" />
+      <recent name="com.atguigu.gmall.service.impl" />
+      <recent name="com.atguigu.gmall.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gmaill\gmall-user-web\src\main\resources" />
+      <recent name="E:\gmaill\gmall-user-service\src\main\resources" />
+      <recent name="E:\gmaill\gmall-user-service\src\main\java\com\atguigu\gmall\user" />
+      <recent name="E:\gmaill\gmall-user-service\src\main\java" />
+      <recent name="E:\gmaill\gmall-api\src\main\java\com\atguigu\gmall\bean" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GmallUserWebApplication">
+    <configuration name="GmallUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="B:\java8\jdk1.8.0_191\jre" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GmallUserWebApplication" />
+        <item itemvalue="Spring Boot.GmallUserServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.10660173" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6ad9d2a-1818-41d3-bc56-06c3c80ddd82" name="Default Changelist" comment="" />
+      <created>1574429661052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574429661052</updated>
+      <workItem from="1574429662279" duration="6498000" />
+      <workItem from="1574437040528" duration="5653000" />
+      <workItem from="1574444112929" duration="2410000" />
+      <workItem from="1574614282318" duration="1180000" />
+      <workItem from="1574683367001" duration="2148000" />
+      <workItem from="1574788148759" duration="5493000" />
+      <workItem from="1574944476025" duration="1400000" />
+      <workItem from="1575035935792" duration="6606000" />
+      <workItem from="1575132147749" duration="1653000" />
+      <workItem from="1575191981968" duration="2520000" />
+      <workItem from="1575196376439" duration="4455000" />
+      <workItem from="1575205172262" duration="990000" />
+      <workItem from="1575206189160" duration="6988000" />
+      <workItem from="1575376819811" duration="9507000" />
+      <workItem from="1575477499151" duration="1809000" />
+      <workItem from="1575551962020" duration="9741000" />
+      <workItem from="1575647367442" duration="2101000" />
+      <workItem from="1575990016564" duration="669000" />
+      <workItem from="1576081230457" duration="1700000" />
+      <workItem from="1576165291819" duration="654000" />
+      <workItem from="1576166094455" duration="306000" />
+      <workItem from="1576166595848" duration="515000" />
+      <workItem from="1576170101663" duration="177000" />
+      <workItem from="1576170427650" duration="673000" />
+      <workItem from="1576174013871" duration="119000" />
+      <workItem from="1576174174995" duration="992000" />
+      <workItem from="1576329794584" duration="5288000" />
+      <workItem from="1576515503480" duration="32000" />
+      <workItem from="1576516018125" duration="3618000" />
+      <workItem from="1576937174124" duration="2034000" />
+      <workItem from="1577981429934" duration="122000" />
+      <workItem from="1577981563774" duration="141000" />
+      <workItem from="1577981738343" duration="470000" />
+      <workItem from="1577982222433" duration="884000" />
+      <workItem from="1578127653911" duration="12427000" />
+      <workItem from="1578246031540" duration="99000" />
+      <workItem from="1578329928700" duration="2329000" />
+      <workItem from="1578573042034" duration="3830000" />
+      <workItem from="1579535026723" duration="2871000" />
+      <workItem from="1579832670040" duration="413000" />
+      <workItem from="1579833770668" duration="397000" />
+      <workItem from="1579834213570" duration="2814000" />
+      <workItem from="1580021937477" duration="55000" />
+      <workItem from="1580022037751" duration="73000" />
+      <workItem from="1580022129647" duration="1276000" />
+      <workItem from="1581065965978" duration="1997000" />
+      <workItem from="1581137445508" duration="4000" />
+      <workItem from="1581144879829" duration="1273000" />
+      <workItem from="1581487168890" duration="9000" />
+      <workItem from="1581487222430" duration="46000" />
+      <workItem from="1581487281750" duration="293000" />
+      <workItem from="1581487591407" duration="264000" />
+      <workItem from="1581487875719" duration="199000" />
+      <workItem from="1581488130145" duration="140000" />
+      <workItem from="1581488910683" duration="115000" />
+      <workItem from="1581489414312" duration="260000" />
+      <workItem from="1581490415050" duration="11060000" />
+      <workItem from="1581511868661" duration="76000" />
+      <workItem from="1581594053409" duration="2118000" />
+      <workItem from="1581685710544" duration="605000" />
+      <workItem from="1582186129121" duration="5028000" />
+      <workItem from="1582437073105" duration="615000" />
+      <workItem from="1582814719581" duration="630000" />
+      <workItem from="1583586664879" duration="609000" />
+      <workItem from="1583656406726" duration="9509000" />
+      <workItem from="1583837744267" duration="1186000" />
+      <workItem from="1584154645518" duration="838000" />
+      <workItem from="1584155504093" duration="7906000" />
+      <workItem from="1584273663625" duration="3651000" />
+      <workItem from="1584330096275" duration="1961000" />
+      <workItem from="1584355835103" duration="8361000" />
+      <workItem from="1584680788562" duration="1100000" />
+    </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <created>1578131336504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578131336504</updated>
+    </task>
+    <task id="LOCAL-00002" summary="api配置提交">
+      <created>1578243736817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578243736817</updated>
+    </task>
+    <task id="LOCAL-00003" summary="util配置提交">
+      <created>1581500668359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581500668359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <MESSAGE value="api配置提交" />
+    <MESSAGE value="util配置提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="util配置提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Live_Templates" timestamp="1584290542703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1584290542703" />
+    <state x="552" y="181" key="#Notifications" timestamp="1584154673577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584154673577" />
+    <state x="552" y="181" key="#Project_Structure" timestamp="1584359762644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584359762644" />
+    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581596624587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581596624587" />
+    <state x="630" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581491219368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581491219368" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584156354392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584156354392" />
+    <state x="465" y="0" width="990" height="930" key="CommitChangelistDialog2" timestamp="1581500666961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="0" width="990" height="930" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581500666961" />
+    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog" timestamp="1581511456456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581511456456" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1584160186600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584160186600" />
+    <state x="1098" y="446" width="274" height="209" key="Github.ShareDialog" timestamp="1578130934404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1098" y="446" width="274" height="209" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578130934404" />
+    <state x="628" y="128" width="929" height="912" key="Github.UntrackedFilesDialog" timestamp="1578130982266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="128" width="929" height="912" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578130982266" />
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1584372809243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809243" />
+    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1584372809243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809243" />
+    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1584372809242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809242" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1584372809243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809243" />
+    <state width="1650" height="265" key="GridCell.Tab.1.bottom" timestamp="1584372809238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1650" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809238" />
+    <state width="1650" height="265" key="GridCell.Tab.1.center" timestamp="1584372809238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1650" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809238" />
+    <state width="1650" height="265" key="GridCell.Tab.1.left" timestamp="1584372809238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1650" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809238" />
+    <state width="1650" height="265" key="GridCell.Tab.1.right" timestamp="1584372809238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1650" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584372809238" />
+    <state width="1572" height="402" key="GridCell.Tab.2.bottom" timestamp="1582209583180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1572" height="402" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582209583180" />
+    <state width="1572" height="402" key="GridCell.Tab.2.center" timestamp="1582209583180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1572" height="402" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582209583180" />
+    <state width="1572" height="402" key="GridCell.Tab.2.left" timestamp="1582209583180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1572" height="402" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582209583180" />
+    <state width="1572" height="402" key="GridCell.Tab.2.right" timestamp="1582209583180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1572" height="402" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582209583180" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1584357990429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584357990429" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581500700942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581500700942" />
+    <state x="821" y="247" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578153784765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="247" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578153784765" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1578128259227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578128259227" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584680789051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584680789051" />
+    <state x="580" y="251" width="759" height="538" key="find.popup" timestamp="1578590144879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="251" width="759" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578590144879" />
+    <state x="660" y="322" key="git4idea.merge.GitPullDialog" timestamp="1578243748850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578243748850" />
+    <state x="435" y="172" width="1251" height="620" key="new project wizard" timestamp="1584157701283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="435" y="172" width="1251" height="620" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584157701283" />
+    <state x="640" y="377" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576937508385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="377" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576937508385" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1581493838597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581493838597" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gmaill$GmallUserApplication.ic" NAME="GmallUserApplication Coverage Results" MODIFIED="1584160811557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
