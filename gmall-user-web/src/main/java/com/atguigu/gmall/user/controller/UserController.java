@@ -16,9 +16,6 @@ import java.util.List;
 public class UserController {
 
 
-
-
-
     @Reference
     private UserService userService;
 
