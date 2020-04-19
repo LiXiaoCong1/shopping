@@ -25,6 +25,8 @@
         <module>../gmall-manage-service</module>
         <module>../gmall-manage-web</module>
         <module>../fastdfs-client-java</module>
+        <module>../gmall-item-web</module>
+        <module>../gmall-item-service</module>
     </modules>
     <packaging>pom</packaging>
 

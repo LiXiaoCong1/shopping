@@ -38,6 +38,17 @@ public class PmsSkuInfo implements Serializable {
     String skuDefaultImg;
 
     @Transient
+    String spuId;
+
+    public String getSpuId() {
+        return spuId;
+    }
+
+    public void setSpuId(String spuId) {
+        this.spuId = spuId;
+    }
+
+    @Transient
     List<PmsSkuImage> pmsSkuImageList;
 
     @Transient

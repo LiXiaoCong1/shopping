@@ -3,13 +3,71 @@
   <component name="ChangeListManager">
     <list default="true" id="a6ad9d2a-1818-41d3-bc56-06c3c80ddd82" name="Default Changelist" comment="api配置提交">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.rebel-remote.xml.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.rebel.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/fastdfs-client.properties.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/fdfs_client.conf.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/common/Base64.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/common/IniFileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/common/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/common/NameValuePair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ClientGlobal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/DownloadCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/DownloadStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/FileInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ProtoCommon$RecvHeaderInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ProtoCommon$RecvPackageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ProtoCommon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ProtoStructDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/ServerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StorageClient$UploadBuff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StorageClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StorageClient1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StorageServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StructBase$FieldInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StructBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StructGroupStat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/StructStorageStat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/TrackerClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/TrackerGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/TrackerServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/UploadCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/UploadStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/pool/Connection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/pool/ConnectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/pool/ConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/classes/org/csource/fastdfs/pool/ConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/fastdfs-client-java-1.29-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/fastdfs-client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/common/IniFileReaderTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/ClientGlobalTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/DownloadFileWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/FdfsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/Monitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestAppender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestAppender1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestClient1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad$DownloadFileDiscard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad$DownloadThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad$Downloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad$UploadThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad$Uploader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/TestLoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/target/test-classes/org/csource/fastdfs/UploadLocalFileSender.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/.rebel-remote.xml.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/.rebel.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/AttrInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/AttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/CatalogService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsCartItem.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsCompanyAddress.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/OmsOrder.class" afterDir="false" />
@@ -32,33 +90,22 @@
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/PmsSkuSaleAttrValue.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMember.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMemberReceiveAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/AttrInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/AttrValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/AttrService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/CatalogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/SpuService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/UserService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/gmall-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/classes/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/classes/util/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/target/classes/util/PmsUploadUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-common-util/target/gmall-common-util-1.0-SNAPSHOT.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/.rebel.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/GmallManageServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/rebel.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/GmallManageServiceApplication.class" afterDir="false" />
@@ -67,29 +114,28 @@
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog1Mapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog2Mapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog3Mapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/AttrInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/AttrValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseSaleAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrValueMApper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/CatalogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/rebel.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/gmall-manage-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/.rebel.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/GmallManageWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/AttrInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/AttrValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/rebel.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/GmallManageWebApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/AttrInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/AttrValueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/AttrController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/CatalogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/SpuController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/tracker.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/gmall-manage-web-1.0-SNAPSHOT.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -112,7 +158,6 @@
       <change afterPath="$PROJECT_DIR$/gmall-user-web/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-user/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-user/.rebel-remote.xml.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-user/.rebel.xml.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-user/target/classes/META-INF/gmall-user.kotlin_module" afterDir="false" />
@@ -134,14 +179,29 @@
       <change afterPath="$PROJECT_DIR$/gmall-web-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gmall-web-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9edb1082-18f7-43a4-b43b-6bd0921def04.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gmaill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gmaill.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/gmall-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/gmall-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SpuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-common-util/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/gmall-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/gmall-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,53 +214,19 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="148" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="gmaill" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SET_USER_NAME_GLOBALLY" value="false" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="E:\gmaill\.idea" />
-      </set>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -209,11 +235,6 @@
         <option name="mavenHome" value="B:/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="B:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1UtRfS9dPwyo1sA7UY8ZnGkwPHN" />
@@ -255,12 +276,12 @@
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver&#10;mongo&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -277,13 +298,14 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-manage-web/src/main/resources" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -300,11 +322,11 @@
       <recent name="com.atguigu.gmall.user.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\gmaill\gmall-manage-web\src\main\resources" />
-      <recent name="E:\gmaill\gmall-manage-service\src\main\resources" />
-      <recent name="E:\gmaill\gmall-user-web\src\main\resources" />
-      <recent name="E:\gmaill\gmall-user-service\src\main\resources" />
-      <recent name="E:\gmaill\gmall-user-service\src\main\java\com\atguigu\gmall\user" />
+      <recent name="E:\gmaill\gmall-manage-service\src\main\resources\mapper" />
+      <recent name="E:\gmaill\gmall-item-web\src\main\resources\templates" />
+      <recent name="E:\gmaill\gmall-item-web\src\main\resources\static" />
+      <recent name="E:\gmaill\gmall-item-service\src\main\resources" />
+      <recent name="E:\gmaill\gmall-item-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,7 +336,30 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallManageServiceApplication">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="gmall-item-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-item-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.item.GmallItemWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gmall-manage-service" />
       <extension name="coverage">
@@ -385,42 +430,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.GmallManageWebApplication" />
       <item itemvalue="Spring Boot.GmallUserApplication" />
       <item itemvalue="Spring Boot.GmallUserServiceApplication" />
       <item itemvalue="Spring Boot.GmallUserWebApplication" />
       <item itemvalue="Spring Boot.GmallManageServiceApplication" />
+      <item itemvalue="Spring Boot.GmallItemWebApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GmallManageServiceApplication" />
+        <item itemvalue="Spring Boot.GmallItemWebApplication" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.GmallUserWebApplication" />
         <item itemvalue="Spring Boot.GmallUserServiceApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.24167258" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -508,7 +534,35 @@
       <workItem from="1584802462750" duration="2756000" />
       <workItem from="1584981853798" duration="1083000" />
       <workItem from="1585063891149" duration="6097000" />
-      <workItem from="1585103628322" duration="15002000" />
+      <workItem from="1585103628322" duration="15401000" />
+      <workItem from="1585220316561" duration="2850000" />
+      <workItem from="1585284449317" duration="10847000" />
+      <workItem from="1585372569097" duration="832000" />
+      <workItem from="1585399572337" duration="20000" />
+      <workItem from="1585399614589" duration="11113000" />
+      <workItem from="1585462839455" duration="4957000" />
+      <workItem from="1585756639556" duration="2014000" />
+      <workItem from="1585837842174" duration="8854000" />
+      <workItem from="1585923974047" duration="673000" />
+      <workItem from="1585972411668" duration="3440000" />
+      <workItem from="1586009030118" duration="5450000" />
+      <workItem from="1586069685656" duration="13746000" />
+      <workItem from="1586186204289" duration="6704000" />
+      <workItem from="1586358976219" duration="767000" />
+      <workItem from="1586446837256" duration="14527000" />
+      <workItem from="1586580984979" duration="14796000" />
+      <workItem from="1586657462907" duration="27762000" />
+      <workItem from="1586787171195" duration="2475000" />
+      <workItem from="1586874874577" duration="9108000" />
+      <workItem from="1586952235031" duration="476000" />
+      <workItem from="1586952725635" duration="1148000" />
+      <workItem from="1586957143093" duration="331000" />
+      <workItem from="1586957487420" duration="1125000" />
+      <workItem from="1586958626847" duration="2246000" />
+      <workItem from="1586961015656" duration="26000" />
+      <workItem from="1587268392284" duration="2521000" />
+      <workItem from="1587279877967" duration="237000" />
+      <workItem from="1587282034404" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1578131336504</created>
@@ -538,52 +592,82 @@
       <option name="project" value="LOCAL" />
       <updated>1584682639282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="管理后台">
+      <created>1585150245263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585150245263</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fastdfs+spu">
+      <created>1585973378174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585973378174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="api配置提交">
+      <created>1585973788793</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585973788793</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初次提交" />
     <MESSAGE value="util配置提交" />
+    <MESSAGE value="管理后台" />
+    <MESSAGE value="fastdfs+spu" />
     <MESSAGE value="api配置提交" />
     <option name="LAST_COMMIT_MESSAGE" value="api配置提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="870" y="395" key="#HTTP_Proxy" timestamp="1586959357114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="870" y="395" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1586959357114" />
     <state x="552" y="181" key="#Live_Templates" timestamp="1584290542703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1584290542703" />
-    <state x="552" y="181" key="#Notifications" timestamp="1584154673577">
+    <state x="552" y="181" key="#Notifications" timestamp="1585973589691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584154673577" />
-    <state x="552" y="181" key="#Project_Structure" timestamp="1584779751607">
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1585973589691" />
+    <state x="552" y="181" key="#Project_Structure" timestamp="1587283744067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584779751607" />
-    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585104296564">
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587283744067" />
+    <state x="552" y="182" key="#Updates" timestamp="1586953926381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585104296564" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1585068497372">
+    <state x="552" y="182" key="#Updates/0.0.1920.1040@0.0.1920.1040" timestamp="1586953926381" />
+    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586506910257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585068497372" />
+    <state x="299" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586506910257" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586884014506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586884014506" />
     <state x="574" y="401" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585104154683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -592,126 +676,142 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581491219368" />
-    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584782015089">
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585409988858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584782015089" />
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584782023542">
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585409988858" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586615536689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584782023542" />
-    <state x="647" y="110" width="990" height="930" key="CommitChangelistDialog2" timestamp="1584682636687">
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586615536689" />
+    <state x="281" y="74" width="1494" height="966" key="CommitChangelistDialog2" timestamp="1585973801545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="647" y="110" width="990" height="930" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584682636687" />
-    <state width="481" height="466" key="DebuggerActiveHint" timestamp="1585139893020">
+    <state x="281" y="74" width="1494" height="966" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585973801545" />
+    <state width="518" height="466" key="DebuggerActiveHint" timestamp="1586962052636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="481" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1585139893020" />
-    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog" timestamp="1584682783905">
+    <state width="518" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586962052636" />
+    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog" timestamp="1585973832749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584682783905" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1584160186600">
+    <state x="184" y="31" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585973832749" />
+    <state x="672" y="170" key="FileChooserDialogImpl" timestamp="1586959342969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584160186600" />
-    <state x="1098" y="446" width="274" height="209" key="Github.ShareDialog" timestamp="1578130934404">
+    <state x="672" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586959342969" />
+    <state x="785" y="418" width="373" height="204" key="Github.CreateGistDialog" timestamp="1586697022695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1098" y="446" width="274" height="209" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578130934404" />
-    <state x="628" y="128" width="929" height="912" key="Github.UntrackedFilesDialog" timestamp="1578130982266">
+    <state x="785" y="418" width="373" height="204" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586697022695" />
+    <state width="1257" height="59" key="GridCell.Tab.0.bottom" timestamp="1587284685602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="628" y="128" width="929" height="912" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578130982266" />
-    <state width="1100" height="216" key="GridCell.Tab.0.bottom" timestamp="1585150040748">
+    <state width="1257" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587284685602" />
+    <state width="1257" height="59" key="GridCell.Tab.0.center" timestamp="1587284685601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040748" />
-    <state width="1100" height="216" key="GridCell.Tab.0.center" timestamp="1585150040747">
+    <state width="1257" height="59" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587284685601" />
+    <state width="1257" height="59" key="GridCell.Tab.0.left" timestamp="1587284685601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040747" />
-    <state width="1100" height="216" key="GridCell.Tab.0.left" timestamp="1585150040747">
+    <state width="1257" height="59" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587284685601" />
+    <state width="1257" height="59" key="GridCell.Tab.0.right" timestamp="1587284685602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040747" />
-    <state width="1100" height="216" key="GridCell.Tab.0.right" timestamp="1585150040747">
+    <state width="1257" height="59" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587284685602" />
+    <state width="1401" height="113" key="GridCell.Tab.1.bottom" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040747" />
-    <state width="1100" height="216" key="GridCell.Tab.1.bottom" timestamp="1585150040748">
+    <state width="1401" height="113" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.1.center" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040748" />
-    <state width="1100" height="216" key="GridCell.Tab.1.center" timestamp="1585150040748">
+    <state width="1401" height="113" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.1.left" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040748" />
-    <state width="1100" height="216" key="GridCell.Tab.1.left" timestamp="1585150040748">
+    <state width="1401" height="113" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.1.right" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040748" />
-    <state width="1100" height="216" key="GridCell.Tab.1.right" timestamp="1585150040748">
+    <state width="1401" height="113" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.2.bottom" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585150040748" />
-    <state width="1100" height="216" key="GridCell.Tab.2.bottom" timestamp="1585140885610">
+    <state width="1401" height="113" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.2.center" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585140885610" />
-    <state width="1100" height="216" key="GridCell.Tab.2.center" timestamp="1585140885610">
+    <state width="1401" height="113" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.2.left" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585140885610" />
-    <state width="1100" height="216" key="GridCell.Tab.2.left" timestamp="1585140885610">
+    <state width="1401" height="113" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="1401" height="113" key="GridCell.Tab.2.right" timestamp="1586972509358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585140885610" />
-    <state width="1100" height="216" key="GridCell.Tab.2.right" timestamp="1585140885610">
+    <state width="1401" height="113" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586972509358" />
+    <state width="278" height="477" key="HiddenNamespacesPopup" timestamp="1585843875346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1100" height="216" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585140885610" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1584357990429">
+    <state width="278" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1585843875346" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1585756682854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584357990429" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584682750248">
+    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585756682854" />
+    <state x="248" y="53" width="1463" height="712" key="SettingsEditor" timestamp="1586960817511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584682750248" />
-    <state x="821" y="247" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578153784765">
+    <state x="248" y="53" width="1463" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586960817511" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585973818179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="821" y="247" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578153784765" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1578128259227">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585973818179" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586961029121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578128259227" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1585103640119">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586961029121" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586686115704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585103640119" />
-    <state x="580" y="251" width="759" height="538" key="find.popup" timestamp="1578590144879">
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586686115704" />
+    <state x="514" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586601172149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="580" y="251" width="759" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578590144879" />
-    <state x="660" y="322" key="git4idea.merge.GitPullDialog" timestamp="1578243748850">
+    <state x="514" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586601172149" />
+    <state x="580" y="251" width="759" height="538" key="find.popup" timestamp="1586887640853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="660" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578243748850" />
-    <state x="126" y="184" width="1251" height="738" key="new project wizard" timestamp="1584685987054">
+    <state x="580" y="251" width="759" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586887640853" />
+    <state x="568" y="254" width="1251" height="738" key="new project wizard" timestamp="1586447793345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="126" y="184" width="1251" height="738" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584685987054" />
-    <state x="640" y="377" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576937508385">
+    <state x="568" y="254" width="1251" height="738" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586447793345" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586878632095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="377" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576937508385" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1581493838597">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586878632095" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586692534574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581493838597" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586692534574" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gmaill$GmallUserApplication.ic" NAME="GmallUserApplication Coverage Results" MODIFIED="1584160811557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -5,7 +5,10 @@ import com.atguigu.gmall.bean.PmsProductImage;
 import com.atguigu.gmall.bean.PmsProductInfo;
 import com.atguigu.gmall.bean.PmsProductSaleAttr;
 import com.atguigu.gmall.bean.PmsProductSaleAttrValue;
-import com.atguigu.gmall.manage.mapper.*;
+import com.atguigu.gmall.manage.mapper.PmsProductImageMapper;
+import com.atguigu.gmall.manage.mapper.PmsProductInfoMapper;
+import com.atguigu.gmall.manage.mapper.PmsProductSaleAttrMapper;
+import com.atguigu.gmall.manage.mapper.PmsProductSaleAttrValueMApper;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -50,7 +53,15 @@ public class SpuServiceImpl implements SpuService {
     public List<PmsProductSaleAttr> spuSaleAttrList(String productId) {
         PmsProductSaleAttr pmsProductSaleAttr = new PmsProductSaleAttr();
         pmsProductSaleAttr.setProductId(productId);
-        return pmsProductSaleAttrMapper.select(pmsProductSaleAttr);
+        List<PmsProductSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.select(pmsProductSaleAttr);
+        for (PmsProductSaleAttr pmsProductSaleAttr1 : pmsProductSaleAttrs) {
+            PmsProductSaleAttrValue pmsProductSaleAttrValue = new PmsProductSaleAttrValue();
+            pmsProductSaleAttrValue.setSaleAttrId(pmsProductSaleAttr1.getSaleAttrId());
+            pmsProductSaleAttrValue.setProductId(productId);
+            List<PmsProductSaleAttrValue> pmsProductSaleAttrValueList = pmsProductSaleAttrValueMApper.select(pmsProductSaleAttrValue);
+            pmsProductSaleAttr1.setPmsProductSaleAttrValueList(pmsProductSaleAttrValueList);
+        }
+        return pmsProductSaleAttrs;
     }
 
     @Override
@@ -59,23 +70,40 @@ public class SpuServiceImpl implements SpuService {
 
 
         List<PmsProductImage> pmsProductImageList = pmsProductInfo.getPmsProductImageList();
-        for (PmsProductImage pmsProductImage:pmsProductImageList) {
-             pmsProductImage.setProductId(pmsProductInfo.getId());
+        for (PmsProductImage pmsProductImage : pmsProductImageList) {
+            pmsProductImage.setProductId(pmsProductInfo.getId());
             pmsProductImageMapper.insert(pmsProductImage);
         }
 
         List<PmsProductSaleAttr> pmsProductSaleAttrList = pmsProductInfo.getPmsProductSaleAttrList();
-        for (PmsProductSaleAttr pmsProductSaleAttr:pmsProductSaleAttrList) {
+        for (PmsProductSaleAttr pmsProductSaleAttr : pmsProductSaleAttrList) {
             pmsProductSaleAttr.setProductId(pmsProductInfo.getId());
             pmsProductSaleAttrMapper.insert(pmsProductSaleAttr);
 
             List<PmsProductSaleAttrValue> pmsProductSaleAttrValueList = pmsProductSaleAttr.getPmsProductSaleAttrValueList();
-            for (PmsProductSaleAttrValue p: pmsProductSaleAttrValueList) {
+            for (PmsProductSaleAttrValue p : pmsProductSaleAttrValueList) {
                 p.setProductId(pmsProductInfo.getId());
                 pmsProductSaleAttrValueMApper.insert(p);
             }
 
         }
-
     }
+
+    @Override
+    public List<PmsProductSaleAttr> selectSpuSaleAttrListCheckBySku(String productId,String skuId) {
+//        PmsProductSaleAttr pmsProductSaleAttr = new PmsProductSaleAttr();
+//        pmsProductSaleAttr.setProductId(productId);
+//        List<PmsProductSaleAttr> pmsProductSaleAttrList = pmsProductSaleAttrMapper.select(pmsProductSaleAttr);
+//        for (PmsProductSaleAttr pmsProductSaleAttr1 :pmsProductSaleAttrList) {
+//            PmsProductSaleAttrValue pmsProductSaleAttrValue = new PmsProductSaleAttrValue();
+//            pmsProductSaleAttrValue.setSaleAttrId(pmsProductSaleAttr1.getSaleAttrId());
+//            pmsProductSaleAttrValue.setProductId(productId);
+//            List<PmsProductSaleAttrValue> pmsProductSaleAttrValueList = pmsProductSaleAttrValueMApper.select(pmsProductSaleAttrValue);
+//            pmsProductSaleAttr1.setPmsProductSaleAttrValueList(pmsProductSaleAttrValueList);
+//        }
+        List<PmsProductSaleAttr> pmsProductSaleAttrList = pmsProductSaleAttrMapper.selectSpuSaleAttrListCheckBySku(productId, skuId);
+        return pmsProductSaleAttrList;
+    }
+
+
 }
