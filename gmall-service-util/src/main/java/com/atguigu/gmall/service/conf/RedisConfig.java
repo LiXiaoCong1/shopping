@@ -1,6 +1,7 @@
-package com.atguigu.gmall.conf;
+package com.atguigu.gmall.service.conf;
 
-import com.atguigu.gmall.util.RedisUtil;
+
+import com.atguigu.gmall.service.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

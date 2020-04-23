@@ -39,7 +39,7 @@ public class ItemController {
         modelMap.put("spuSaleAttrListCheckBySku",pmsProductSaleAttrList);
         List<PmsSkuInfo> pmsSkuInfos = skuService.selectSkuSaleAttrValueListBySpu(pmsSkuInfo.getProductId());
         HashMap<String, String> map = new HashMap<>();
-        for(PmsSkuInfo skuInfo :pmsSkuInfos){
+        pmsSkuInfos.stream().forEach(skuInfo -> {
             String k = "";
             String v = skuInfo.getId();
             List<PmsSkuSaleAttrValue> pmsSkuSaleAttrValueList = skuInfo.getPmsSkuSaleAttrValueList();
@@ -47,7 +47,7 @@ public class ItemController {
                 k += pmsSkuSaleAttrValue.getSaleAttrValueId()+"|";
             }
             map.put(k,v);
-        }
+        });
         String s = JSON.toJSONString(map);
         modelMap.put("valuesSku",s);
         System.out.println(modelMap);

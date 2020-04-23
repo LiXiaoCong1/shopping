@@ -1,4 +1,4 @@
-package com.atguigu.gmall.util;
+package com.atguigu.gmall.service.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

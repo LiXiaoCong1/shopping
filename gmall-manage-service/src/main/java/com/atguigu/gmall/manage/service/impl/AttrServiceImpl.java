@@ -36,13 +36,13 @@ public class AttrServiceImpl implements AttrService {
         PmsBaseAttrInfo pmsBaseAttrInfo = new PmsBaseAttrInfo();
         pmsBaseAttrInfo.setCatalog3Id(catalog3Id);
         List<PmsBaseAttrInfo> pmsBaseAttrInfos = pmsBaseAttrInfoMapper.select(pmsBaseAttrInfo);
-        for (PmsBaseAttrInfo p: pmsBaseAttrInfos) {
+        pmsBaseAttrInfos.stream().forEach(pmsBaseAttrInfo1 -> {
             List<PmsBaseAttrValue> attrValueList = new ArrayList<>();
             PmsBaseAttrValue pmsBaseAttrValue = new PmsBaseAttrValue();
-            pmsBaseAttrValue.setAttrId(p.getId());
+            pmsBaseAttrValue.setAttrId(pmsBaseAttrInfo1.getId());
             attrValueList = pmsBaseAttrValueMapper.select(pmsBaseAttrValue);
-            p.setAttrValueList(attrValueList);
-        }
+            pmsBaseAttrInfo1.setAttrValueList(attrValueList);
+        });
         return pmsBaseAttrInfos;
     }
 
@@ -63,10 +63,10 @@ public class AttrServiceImpl implements AttrService {
             pmsBaseAttrValueMapper.delete(pmsBaseAttrValue);
         }
         List<PmsBaseAttrValue> attrValueList = pmsBaseAttrInfo.getAttrValueList();
-        for (PmsBaseAttrValue pmsBaseAttrValue : attrValueList) {
+        attrValueList.stream().forEach(pmsBaseAttrValue -> {
             pmsBaseAttrValue.setAttrId(pmsBaseAttrInfo.getId());
             pmsBaseAttrValueMapper.insertSelective(pmsBaseAttrValue);
-        }
+        });
     }
 
     //删除属性值
