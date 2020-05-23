@@ -19,6 +19,7 @@ import redis.clients.jedis.Jedis;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * @author lxc
@@ -87,14 +88,48 @@ public class SkuServiceImpl implements SkuService {
         String skuKey = "sku:" + skuId + ":info";
         String skuJson = redis.get(skuKey);
         if (StringUtils.isNotBlank(skuJson)) {
+            System.out.println("取缓存中数据！");
             pmsSkuInfo = JSON.parseObject(skuJson, PmsSkuInfo.class);
         } else {
-            pmsSkuInfo = selectPmsSkuInfoFromDb(skuId);
-            if (pmsSkuInfo != null) {
-                redis.set(skuKey, JSON.toJSONString(pmsSkuInfo));
-            }else{
-                //防止缓存穿透，将null或者""给redis
-                redis.setex(skuKey,60*3,JSON.toJSONString(""));
+            //申请拿锁
+            String token = UUID.randomUUID().toString();
+            String ok = redis.set("sku:" + skuId + ":lock", token, "nx", "px", 200);
+            System.out.println(ok);
+            if (StringUtils.isNotBlank(ok) && "OK".equals(ok)) {
+                System.out.println("取锁成功，开始查询数据库");
+                //分布式缓存取锁
+                //取锁成功，访问数据库
+                pmsSkuInfo = selectPmsSkuInfoFromDb(skuId);
+//                try {
+//                    Thread.sleep(30 * 1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+                if (pmsSkuInfo != null) {
+                    redis.set(skuKey, JSON.toJSONString(pmsSkuInfo));
+                } else {
+                    //防止缓存穿透，将null或者""给redis
+                    redis.setex(skuKey, 60 * 3, JSON.toJSONString(""));
+                }
+                //还锁
+                System.out.println("还锁。。。");
+                String lockToken = redis.get("sku:" + skuId + ":lock");
+//                String script ="if redis.call('get', KEYS[1]) == ARGV[1] then return redis.call('del', KEYS[1]) else return 0 end";
+//                redis.eval(script, Collections.singletonList("sku:" + skuId + ":lock"),Collections.singletonList(lockToken));
+                if(StringUtils.isNotBlank(lockToken)&&lockToken.equals(token)){
+                    redis.del("sku:" + skuId + ":lock");
+                }
+                System.out.println(lockToken);
+            } else {
+                System.out.println("线程睡眠3秒钟，启动自旋。。。");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("开始自旋");
+                //取锁失败，开始自旋
+                return selectPmsSkuInfoById(skuId);
             }
         }
         redis.close();

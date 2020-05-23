@@ -17,6 +17,8 @@ import java.util.List;
 @CrossOrigin
 public class AttrController {
 
+    int i = 0;
+
     @Reference
     private AttrService attrService;
 
@@ -47,6 +49,7 @@ public class AttrController {
 
     @RequestMapping("baseSaleAttrList")
     public List<PmsBaseSaleAttr> baseSaleAttrList(){
+        System.out.println(++i+"================================");
        return attrService.baseSaleAttrList();
     }
 
